@@ -24,7 +24,7 @@
       }
     })
 ```
-6. CS50 (basics of CS), CS50W (Web programming with JS and Python), CS50P (Course about Python)
+6. CS50 (basics of CS), CS50W (Web programming with JS and Python), CS50P (Course about Python
 https://github.com/me50/mnmsvlw/
 7. I graduated from the medical faculty of St. Petersburg State University :cold_sweat:
 8. C1

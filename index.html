@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="assets/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<title>CV</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container main-container">
+
+      <section class="section" id="profile">
+        <h1 class="section-title">Vladimir Nebolsin</h1>
+        <img src="assets/img/avatar.jpg" width="320" alt="avatar" class="avatar">
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li>Tbilisi, Georgia</li>
+          <li>Telegram: @mynameisvlw</li>
+          <li>Discord: Taranis#7137</li>
+          <li>Github: mnmsvlw</li>
+        </ul>
+      </section>
+
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>I started studying Computer Science 6 month ago with a CS50 course. Since then, every day I learn more and more interesting information about it and I, to be honest, really like it. I want to study with rsschool to look at what standards are available in large companies and, possibly, get my first offer.</p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>Django REST Framework</li>
+          <li>Git</li>
+          <li>Docker</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="code"><code>
+let fileInput = document.querySelectorAll('#file-js-example input[type=file]')
+fileInput.forEach(element => {
+  element.onchange = () => {
+    if (element.files.length > 0) {
+      let fileName = element.nextElementSibling.nextElementSibling
+      fileName.textContent = `Выбрано ${element.files.length} файлов`
+    }
+  }
+})
+        </code></pre>
+      </section>
+
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul>
+          <li>CS50 (basics of CS)</li> 
+          <li>CS50W (Web programming with JS and Python)</li>
+          <li>CS50P (Course about Python)</li>
+        </ul>
+        <a href="https://github.com/mnmsvlw/cs50">https://github.com/mnmsvlw/cs50 </a>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>I graduated from the medical faculty of the St. Petersburg State University</p>
+      </section>
+
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul>
+          <li>English (C1)</li>
+          <li>German (A2)</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="footer-item">2022</p>
+      <a href="https://github.com/mnmsvlw/" class="footer-item"><img src="assets/img/GitHub_Logo.png" width="64" alt="githublogo" class="footer-item"></a>
+      <img src="https://rs.school/images/rs_school_js.svg" width="128" alt="rslogo" class="footer-item">
+      <a href="https://rs.school/js/" class="footer-item">"JavaScript/Front-end" Course</a>
+    </div>
+  </footer>
+
+</body>
+</html>
